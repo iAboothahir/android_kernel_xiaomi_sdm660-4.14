@@ -1275,6 +1275,7 @@ source "drivers/input/touchscreen/st/Kconfig"
 
 if MACH_ASUS_X00TD
 source "drivers/input/touchscreen/NVT_Touch/Kconfig"
+source "drivers/input/touchscreen/synaptics_dsx_2.7/Kconfig"
 endif
 
 config TOUCHSCREEN_HIMAX_CHIPSET
